@@ -11,3 +11,7 @@
 #include <sys/types.h>
 #include <limits.h>
 int _putchar(char ch);
+int size_cmd(const char *arr);
+char case_sense(char *s);
+int comp_command(char *s1, char *s2);
+#endif /* SHELL_H */
