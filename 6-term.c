@@ -24,7 +24,7 @@ int main(void)
 				{
 					verify_init = confirm_paths(s);
 					if (verify_init == 0)
-						verify_in = exec_process(s), free(array), free(*s);
+						verify_out = exec_process(s), free(array), free(*s);
 					else
 					{
 					hnd_cmd = confirm_cmd(s, verify_in);
