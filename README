@@ -1,0 +1,43 @@
+Simple Shell
+
+Description
+	The Simple Shell is a replication or a custom made unix-like shell.It is a command line for communicating in operating system.it is a medium for execution and management of process. It is a very simple and understandable.
+
+Features
+1.	Piping: This is donted with the sign "|", which is commonly called Piping in Unix-like environment.
+2.	Customization: It allow shell users to be able to customize their environment variables.
+3.	Redirection: It is used to redirect the output and input given in a program.
+4.	Process Management: It serves as a medium to process and run programs.
+5.	Buit-in command: This includes cd etc.
+6.	Simple syntax: The syntax are similar to the Unix-like shell.
+7.	Execution of commands: It is used to execute commands and process programs.
+8.	Scripting:It allows the use of sequence of commnds from shell while applied to a program for customizations.
+
+Getting started
+Installation
+1.	The repository is going to be cloned
+2.	The required script should be installed
+
+Usage
+1.	The terminal is started
+2.	The shell program should be run
+3.	Add the built-in command on shell environment
+
+Documentation
+Features
+1.      Piping: This is donted with the sign "|", which is commonly called Piping in Unix-like environment.
+2.      Customization: It allow shell users to be able to customize their environment variables.
+3.      Redirection: It is used to redirect the output and input given in a program.
+4.      Process Management: It serves as a medium to process and run programs.
+5.      Buit-in command: This includes cd etc.
+6.      Simple syntax: The syntax are similar to the Unix-like shell.
+7.      Execution of commands: It is used to execute commands and process programs.
+8.      Scripting:It allows the use of sequence of commnds from shell while applied to a program for customizations.
+
+Guide for configuration
+1.	Starting environment variable
+2.	Providing the necessary aliases
+3.	Launch the required script
+
+Contribution
+This project was designed by Muhammed Olamilekan.
