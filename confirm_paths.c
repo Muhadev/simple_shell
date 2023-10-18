@@ -12,6 +12,7 @@ int confirm_paths(char **s)
 	char *new_path = NULL;
 	char *file_loc = NULL;
 	char *built_in_loc = NULL;
+
 	old_path = handle_environ("PATH");
 	if (old_path == NULL)
 		return (-1);

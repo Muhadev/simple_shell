@@ -30,7 +30,7 @@ int confirm_cmd(char **s, int check)
 	{
 		if (environ == NULL)
 			return (0);
-		write (1, environ, 1000);
+		write(1, environ, 1000);
 	}
 	return (0);
 }
