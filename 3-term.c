@@ -13,7 +13,7 @@ int comp_command(char *s1, char *s2)
 		;
 	for (len = 0; s2[len] != '\0'; len++)
 	{
-		if (s1[len] != s2[len)
+		if (s1[len] != s2[len])
 		{
 			return (s1[len] - s2[len]);
 		}

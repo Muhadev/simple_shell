@@ -15,18 +15,18 @@ int confirm_cmd(char **s, int check)
 
 	while (ch < 2)
 	{
-		if (compare_cmd(s[0], apply_cmd[ch]) == 0)
+		if (comp_command(s[0], apply_cmd[ch]) == 0)
 			break;
 		ch++;
 	}
 	if (ch == 2)
 		return (-1);
-	if (compare_cmd[apply_cmd[ch], "exit") == 0)
+	if (comp_command(apply_cmd[ch], "exit") == 0)
 	{
 		free(s[0]);
 		exit(check);
 	}
-	if (compare_cmd(apply_cmd[ch], "env") == 0)
+	if (comp_command(apply_cmd[ch], "env") == 0)
 	{
 		if (environ == NULL)
 			return (0);

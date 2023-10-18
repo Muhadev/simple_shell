@@ -5,7 +5,7 @@
  * @built_in: command like ls
  * Return: addition of cmd and strings
  */
-char handle_builtin(char *file_loc, char *built_in)
+char *handle_builtin(char *file_loc, char *built_in)
 {
 	char *built_in_loc = NULL;
 	int i, j = 0;
@@ -33,5 +33,5 @@ char handle_builtin(char *file_loc, char *built_in)
 		j++;
 	}
 	built_in_loc[i + j] = '\0';
-	return (built_in_path);
+	return (built_in_loc);
 }

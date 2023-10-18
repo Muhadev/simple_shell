@@ -33,9 +33,9 @@ int exec_process(char **s)
  * @stat_inputs: variable from global environ
  * Return: content of the variable
  */
-char handle_environ(char *stat_inputs)
+char *handle_environ(char *stat_inputs)
 {
-	char a, b, c;
+	char *a, *b, *c;
 	const char checker[] = "=";
 	int num = 0;
 
