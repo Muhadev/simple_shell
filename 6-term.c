@@ -27,7 +27,7 @@ int main(void)
 						verify_in = exec_process(s), free(array), free(*s);
 					else
 					{
-						hnd_cmd = confirm_cmd(s, verify_in);
+					hnd_cmd = confirm_cmd(s, verify_in);
 					if (hnd_cmd != 0)
 						verify_in = error_message(s, checker), free(array);
 					}
