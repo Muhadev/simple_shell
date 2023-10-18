@@ -27,4 +27,5 @@ int count_digits(int num);
 int confirm_cmd(char **s, int check);
 extern char **environ;
 int confirm_paths(char **s);
+int main(void);
 #endif /* SHELL_H */
