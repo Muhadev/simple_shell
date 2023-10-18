@@ -26,11 +26,11 @@ int confirm_paths(char **s)
 		built_in_loc = handle_builtin(file_loc, s[0]);
 		a[num] = built_in_loc;
 		checker = opt_out_cmd(a[num]);
-		file_loc = strtok(NULL, ": ");
+		file_loc = strtok(NULL, ":");
 		num++;
 	}
-	--num;
-	free(file_loc);
+	num--;
+	free(new_path);
 	delete_mem(a, num);
 	if (checker == 0)
 	{
