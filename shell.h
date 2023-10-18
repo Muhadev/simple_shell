@@ -23,4 +23,5 @@ void opt_out_last(char *array);
 char handle_builtin(char *file_loc, char *built_in);
 char handle_environ(char *stat_inputs);
 int exec_process(char **s);
+int count_digits(int num);
 #endif /* SHELL_H */
