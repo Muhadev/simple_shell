@@ -42,6 +42,7 @@ char *case_sense(char *s)
 	{
 		check[n] = s[n];
 	}
+	check[size] = '\0';
 	return (check);
 }
 /**

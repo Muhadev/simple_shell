@@ -54,7 +54,7 @@ char *handle_environ(char *stat_inputs)
 				free(b);
 				return (c);
 			}
-			++num;
+			num++;
 			free(b);
 			b = case_sense(environ[num]);
 		}
