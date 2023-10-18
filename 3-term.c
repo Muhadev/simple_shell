@@ -35,7 +35,7 @@ char *case_sense(char *s)
 		return (NULL);
 	for (size = 0; s[size] != '\0'; size++)
 		;
-	check = (char *) malloc(sizeof(char) * (size + 1));
+	check = (char *)malloc(sizeof(char) * (size + 1));
 	if (check == NULL)
 		return (NULL);
 	for (n = 0; n <= size; n++)
