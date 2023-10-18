@@ -24,4 +24,7 @@ char handle_builtin(char *file_loc, char *built_in);
 char handle_environ(char *stat_inputs);
 int exec_process(char **s);
 int count_digits(int num);
+int confirm_cmd(char **s, int check);
+extern char **environ;
+
 #endif /* SHELL_H */
