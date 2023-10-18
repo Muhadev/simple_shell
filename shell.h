@@ -20,4 +20,7 @@ int list_inputs(char *arr1, char **arr2);
 int result_prompt(const char *num, unsigned int len);
 int error_message(char **s, int add);
 void opt_out_last(char *array);
+char handle_builtin(char *file_loc, char *built_in);
+char handle_environ(char *stat_inputs);
+int exec_process(char **s);
 #endif /* SHELL_H */
