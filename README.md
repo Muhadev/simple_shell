@@ -21,7 +21,7 @@ This program was written entirely in C Language.
 </p>
 
 ## COPYRIGHT
-Copyright (C) 2022 by [**Reny Kipkoech**](https://github.com/Tr-reny) and [**Stellah Mbao**](https://github.com/StellahMbao) </br>
+Copyright (C) 2022 by [**Reny Kipkoech**](https://github.com/Muhadev)  </br>
 All rights reserved
 
  ## Description :
@@ -66,7 +66,7 @@ Our shell has support for the following built-in commands:
  
 Clone the below repository and compile the files into an executable using the GCC compiler.
 ```
-https://github.com/StellahMbao/simple_shell.git
+https://github.com/Muhadev/simple_shell.git
 ```
 
 ### Basic usage :bulb:
@@ -86,7 +86,7 @@ ls -la
 ![114757753-e50c2180-9d64-11eb-95ea-fb9bba776c8c](https://user-images.githubusercontent.com/57016982/186711943-65abad4d-eedf-4d65-947d-3710e189bdee.png)
 
 ## Contributors :
-* [**Reny Kipkoech**](https://github.com/Muhadev)
+* [**Fayemi Muhammed**](https://github.com/Muhadev)
 
 ## Acknowledgments :
 - The creators of the C language.
